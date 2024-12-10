@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(236, 222, 203);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    /* flex-wrap: wrap; */
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-height: 200px;
+    aspect-ratio: 3/4;
+}
+
+.card_body {
+    padding: 30px;
+}
+
+.card_title {
+    margin-bottom: 20px;
+}

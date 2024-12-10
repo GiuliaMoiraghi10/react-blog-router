@@ -1,0 +1,54 @@
+.imgContact {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 400px;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 222, 203);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.about_text {
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+}
+
+.btn_form {
+    background-color: rgb(236, 222, 203);
+    cursor: pointer;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+
+.btn_form:hover {
+    background-color: #501c50;
+    color: rgb(236, 222, 203);
+}
+
+.text_area {
+    width: 300px;
+    height: 100px;
+}

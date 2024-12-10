@@ -1,0 +1,25 @@
+.imgHome {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 400px;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 222, 203);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.about_text {
+    padding: 50px;
+}
+
+.about_title {
+    background-color: #501c50;
+    color: rgb(236, 222, 203);
+    padding: 10px;
+    margin-bottom: 20px;
+}

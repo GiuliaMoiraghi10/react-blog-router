@@ -1,0 +1,13 @@
+.nav {
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(236, 222, 203);
+}
