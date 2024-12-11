@@ -9,6 +9,9 @@ export default function Navbar() {
                     <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
+                    <NavLink to='/characters'>Personaggi</NavLink>
+                </li>
+                <li>
                     <NavLink to='/about'>About</NavLink>
                 </li>
                 <li>

@@ -43,9 +43,3 @@
     width: calc(4 * 100% / 12);
     gap: 20px;
 }
-
-.description {
-    padding: 50px;
-    line-height: 2rem;
-    font-weight: 600;
-}
