@@ -24,7 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/characters">
             <Route path='' element={<Index />}></Route>
-            <Route path=':id' element={<Show />}></Route>
+            <Route path='/characters/:id' element={<Show />}></Route>
           </Route>
         </Route>
         <Route element={<BlankLayout />}>

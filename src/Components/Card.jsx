@@ -17,7 +17,7 @@ export default function Card(props) {
             <div className={style.card_body}>
                 <h3 className={style.card_title}>{props.name}</h3>
                 <div>
-                    <Button />
+                    <Link className={style.btn} to={`/characters/${id}`}>Info</Link>
                 </div>
             </div>
         </div>
