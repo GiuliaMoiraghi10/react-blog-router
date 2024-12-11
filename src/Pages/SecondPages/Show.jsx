@@ -1,5 +1,5 @@
 export default function Show() {
     return (
-        <h1>Dettaglio Personaggio - Show</h1>
+        <h1>Pagina con dettaglio post</h1>
     )
 }

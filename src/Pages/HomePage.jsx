@@ -5,10 +5,13 @@ import { characters } from '../Characters'
 import axios from 'axios'
 import { BASE_API_URI } from '../baseUrl'
 import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 
 export default function HomePage() {
 
     const [characters, setCharacters] = useState([])
+
+    const { id } = useParams()
 
     function fetchCharacters() {
         axios.get(`${BASE_API_URI}/characters`)
@@ -23,7 +26,7 @@ export default function HomePage() {
 
     useEffect(() => {
         fetchCharacters()
-    }, [])
+    }, [id])
 
     return (
         <div>
